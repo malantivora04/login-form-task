@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/nature.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.container {
+    display: flex;
+    width: 80vw;
+    height: 60vh;
+    box-shadow: 5px 5px 10px 0px rgb(65, 65, 65);
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    width: 80vw;
+    ;
+    height: 60vh;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(131, 113, 113, 0.4);
+}
+
+.heading{
+    width: 80vw;
+    text-align: center;
+}
+
+.terms{
+    width: 80vw;
+    text-align: center;
+    font-weight: bold ;
+}
+.btn{
+    width: 80vw;
+    text-align: center;
+}
+
+.log-details input[type=text],[type=password],[type=number],select {
+    height: 25px;
+    width: 400px;
+    border: 2px solid white;
+}
+
+.form div {
+    padding: 15px;
+}
+
+.btn input {
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    background-color: white;
+}
